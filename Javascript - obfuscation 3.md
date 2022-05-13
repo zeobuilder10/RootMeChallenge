@@ -11,7 +11,7 @@ En la copiant dans la console entre deux guillemets voila notre ligne de chiffre
 
 ![rootme7](https://user-images.githubusercontent.com/81105172/168318612-2e672f48-8609-4e18-84f8-aa095afabd57.PNG)
 
-on peut donc procoder à la suite du processus. Comme dans le code, nous allons utiliser la fonction String.fromCharCode pour récupérer le mot de passe :
+on peut donc procéder à la suite du processus. Comme dans le code, nous allons utiliser la fonction String.fromCharCode pour récupérer le mot de passe :
 
 ![rootme8](https://user-images.githubusercontent.com/81105172/168319073-56433355-6943-4757-891b-2f81147bf64d.PNG)
 
